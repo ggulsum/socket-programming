@@ -2,7 +2,7 @@
 
 Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında veri iletişimini sağlar.
 
-## Görevler ve Açıklamalar
+## Görevler 
 
 - **Sunucu (server.js)**:
     - Klavye tuşlarına basılmasını dinler ve ilgili işlemi gerçekleştirir.
