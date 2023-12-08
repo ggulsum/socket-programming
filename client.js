@@ -4,7 +4,7 @@ const readline = require('readline');
 
 const socket = io('http://localhost:3000');
 
-console.log("İstemci başlatılıyor...");
+console.log("İstemci baslatiliyor...");
 
 const rl = readline.createInterface({
     input: process.stdin,
