@@ -17,7 +17,7 @@ Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js küt
 
 Proje için gerekli kütüphanelerin kurulumları gerçekleştikten sonra, sunucu ve istemciyi iki ayrı terminalde çalıştırmanız gerekiyor.
 
-### Sunucu (Server.js)
+### Sunucu (server.js)
 
 Sunucuyu başlatmak için terminalde proje klasöründe aşağıdaki komutu çalıştırın:
 
@@ -27,12 +27,12 @@ node server.js
 
 Sunucu başlatıldığında, istemci ile veri iletişimi sağlanacaktır.
 
-### İstemci (Client.js)
+### İstemci (client.js)
 
 Yeni bir terminal sekmesi açın ve proje klasöründe aşağıdaki komutu çalıştırın:
 
 ```bash
-node Client.js
+node client.js
 ```
 
 İstemci başlatıldığında, sunucu ile veri alışverişi yapılacaktır.
