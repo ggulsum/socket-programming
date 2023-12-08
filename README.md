@@ -1,6 +1,6 @@
 # Socket Programlama
 
-Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında eş zamanlı olarak klavye tuşları, fare koordinatları verilerinin paylaşımını sağlar.
+Bu proje, Node.js tabanlı bir uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında eş zamanlı olarak klavye tuşları, fare koordinatları verilerinin paylaşımını sağlar.
 
 ## Görevler 
 
