@@ -1,4 +1,4 @@
-# Socket Programlama Örneği
+# Socket Programlama
 
 Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında veri iletişimini sağlar.
 
