@@ -14,6 +14,7 @@ const rl = readline.createInterface({
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
+//Klavye 
 process.stdin.on('data', (data) => {
     const key = data.trim();
     socket.emit('key', key);
