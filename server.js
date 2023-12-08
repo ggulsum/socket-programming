@@ -1,5 +1,5 @@
 const robot = require('robotjs');
-console.log("Sunucu başlatılıyor...");
+console.log("Sunucu baslatiliyor...");
 const io = require('socket.io')(4000);
 
 
