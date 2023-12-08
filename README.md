@@ -1,6 +1,6 @@
 # Socket Programlama
 
-Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında veri iletişimini sağlar.
+Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js kütüphanelerini kullanarak sunucu ve istemci arasında eş zamanlı olarak klavye tuşları, fare koordinatları verilerinin paylaşımını sağlar.
 
 ## Görevler 
 
@@ -12,7 +12,30 @@ Bu proje, Node.js tabanlı bir örnek uygulamadır ve Socket.io ve Robot.js küt
     - Kullanıcıdan klavye tuş girişi alır ve sunucuya gönderir.
     - Belirli aralıklarla fare koordinatlarını sunucuya gönderir.
 
-Bu uygulama, sunucu ve istemci arasında eş zamanlı olarak klavye tuşları, fare koordinatları ve ekran görüntüsü gibi verilerin paylaşımını sağlar.
+
+## Projeyi Çalıştırma
+
+Proje için gerekli kütüphanelerin kurulumları gerçekleştikten sonra, sunucu ve istemciyi iki ayrı terminalde çalıştırmanız gerekiyor.
+
+### Sunucu (Server.js)
+
+Sunucuyu başlatmak için terminalde proje klasöründe aşağıdaki komutu çalıştırın:
+
+```bash
+node server.js
+```
+
+Sunucu başlatıldığında, istemci ile veri iletişimi sağlanacaktır.
+
+### İstemci (Client.js)
+
+Yeni bir terminal sekmesi açın ve proje klasöründe aşağıdaki komutu çalıştırın:
+
+```bash
+node Client.js
+```
+
+İstemci başlatıldığında, sunucu ile veri alışverişi yapılacaktır.
 
 ## Kaynaklar
 
