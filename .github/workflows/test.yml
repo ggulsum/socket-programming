@@ -1,0 +1,14 @@
+name: Use External Retire.js Action
+
+on:
+  push:
+    branches: 
+      - main 
+  pull_request:
+    branches: 
+      - main 
+
+jobs:   
+  use-external-action:
+    uses: ggulsum/actions_/.github/workflows/retire_js.yml@master
+        
